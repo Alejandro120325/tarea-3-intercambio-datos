@@ -1,0 +1,27 @@
+### 1. GET - Obtener un recurso
+GET https://jsonplaceholder.typicode.com/posts/1
+Accept: application/json
+
+### 2. POST - Crear un nuevo recurso
+POST https://jsonplaceholder.typicode.com/posts
+Content-Type: application/json
+
+{
+  "title": "Prueba de API con WebStorm",
+  "body": "Probando el cliente de WebStorm",
+  "userId": 1
+}
+
+### 3. PUT - Actualizar un recurso existente
+PUT https://jsonplaceholder.typicode.com/posts/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "title": "Título Editado por Alejandro Ojeda",
+  "body": "Contenido actualizado exitosamente",
+  "userId": 1
+}
+
+### 4. DELETE - Eliminar un recurso
+DELETE https://jsonplaceholder.typicode.com/posts/1
